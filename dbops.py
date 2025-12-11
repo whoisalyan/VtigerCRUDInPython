@@ -59,7 +59,7 @@ def extract_base_url(url: str) -> str:
 
 # Get MySQL connection details from environment variables
 user =os.environ.get('MYSQL_USER', '')
-password = os.environ.get('MYSQL_PASSWORD', 'B!')
+password = os.environ.get('MYSQL_PASSWORD', '')
 host = os.environ.get('MYSQL_HOST', '')
 port = os.environ.get('MYSQL_PORT', '')
 database =os.environ.get('MYSQL_DATABASE', '')
